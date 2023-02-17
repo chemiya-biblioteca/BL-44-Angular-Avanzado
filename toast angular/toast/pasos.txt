@@ -1,0 +1,4 @@
+npm install ngx-toastr
+npm install @angular/animations
+poner en agular json lo de toast en styles
+app.mpdule importaciones

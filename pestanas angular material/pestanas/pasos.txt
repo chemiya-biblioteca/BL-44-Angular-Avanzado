@@ -1,0 +1,3 @@
+importar en app.module
+ng add @angular/material
+yes y yes despues del color

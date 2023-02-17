@@ -1,0 +1,27 @@
+<table>
+  <thead>
+    <th>id</th>
+    <th>status</th>
+    <th>name</th>
+  </thead>
+  <tbody>
+    <tr *ngFor="let user of users">
+      <td>{{user.id}}</td>
+      <td>{{user.status}}</td>
+      <td>{{user.name}}</td>
+      
+    </tr>
+  </tbody>
+</table>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-4" *ngFor="let user of users">
+      <app-card [user]="user" ></app-card>
+    </div>
+    
+      
+  
+  </div>
+</div>
